@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: nyc_taxi
+    description: 'NYC Taxi Trip Data'
+    database: nyc_taxi  
+    schema: public  
+    tables:
+      - name: taxi_yellow
